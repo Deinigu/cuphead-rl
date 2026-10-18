@@ -1,0 +1,692 @@
+{
+ "episodes": [
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 0,
+   "seed": 10000,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.2366666666666667,
+   "hits_taken": 3,
+   "time": 17.221,
+   "reward": 4.559666666666667,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.236,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 17.9,
+     "when": "post",
+     "player": {
+      "x": -110.1,
+      "y": 56.0,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -233.0
+    },
+    {
+     "t": 9.237,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -223.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -64.0
+    },
+    {
+     "t": 17.186,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "FIST",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 71.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 292.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 1,
+   "seed": 10001,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.1333333333333333,
+   "hits_taken": 3,
+   "time": 10.497,
+   "reward": -5.737666666666668,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.131,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 4.3,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -99.0
+    },
+    {
+     "t": 8.227,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -208.7,
+      "y": 62.3,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -196.0
+    },
+    {
+     "t": 10.343,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -295.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -196.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 2,
+   "seed": 10002,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.17666666666666664,
+   "hits_taken": 3,
+   "time": 13.333,
+   "reward": -1.4233333333333338,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.035,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -21.2,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -99.0
+    },
+    {
+     "t": 7.647,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 232.1,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    },
+    {
+     "t": 13.299,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -189.5,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -92.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 3,
+   "seed": 10003,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.21333333333333337,
+   "hits_taken": 3,
+   "time": 15.605,
+   "reward": 2.2283333333333353,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.04,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -34.3,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -99.0
+    },
+    {
+     "t": 7.543,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH_WINDUP->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 312.2,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 244.0
+    },
+    {
+     "t": 15.542,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 256.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 154.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 4,
+   "seed": 10004,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.22333333333333338,
+   "hits_taken": 3,
+   "time": 15.418,
+   "reward": 3.228333333333339,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.097,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": 16.2,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -99.0
+    },
+    {
+     "t": 7.715,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 337.6,
+      "y": 56.0,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    },
+    {
+     "t": 15.281,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 322.0,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 326.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 5,
+   "seed": 10005,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.13,
+   "hits_taken": 3,
+   "time": 9.13,
+   "reward": -6.061999999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 4.096,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.7,
+     "when": "pre",
+     "player": {
+      "x": -235.3,
+      "y": 43.3,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -92.0
+    },
+    {
+     "t": 6.149,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 169.1,
+      "y": 56.0,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 154.0
+    },
+    {
+     "t": 9.096,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "FIST",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -205.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 76.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 6,
+   "seed": 10006,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.2533333333333333,
+   "hits_taken": 3,
+   "time": 17.005,
+   "reward": 6.225333333333342,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 1.086,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 18.4,
+     "when": "post",
+     "player": {
+      "x": 24.4,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -99.0
+    },
+    {
+     "t": 7.819,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": 175.4,
+      "y": 68.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    },
+    {
+     "t": 16.94,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 305.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 170.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 7,
+   "seed": 10007,
+   "won": false,
+   "phase": 1,
+   "boss_damage": 0.5266666666666666,
+   "hits_taken": 3,
+   "time": 29.401,
+   "reward": 38.48466666666657,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 14.499,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 12.7,
+     "when": "post",
+     "player": {
+      "x": 261.7,
+      "y": 48.2,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 144.0
+    },
+    {
+     "t": 24.601,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 70.3,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 247.3
+    },
+    {
+     "t": 29.285,
+     "phase": 1,
+     "hp_after": 0,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "FIST",
+     "gap": 11.5,
+     "when": "post",
+     "player": {
+      "x": 267.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -115.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 8,
+   "seed": 10008,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.1466666666666666,
+   "hits_taken": 3,
+   "time": 10.923,
+   "reward": -4.401333333333332,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 3.937,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->JUMP",
+     "cause": "BODY",
+     "gap": 25.2,
+     "when": "pre",
+     "player": {
+      "x": -221.7,
+      "y": 69.7,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -22.0
+    },
+    {
+     "t": 8.388,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -299.2,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -196.0
+    },
+    {
+     "t": 10.906,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -300.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -196.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_zero_shot_free",
+   "episode": 9,
+   "seed": 10009,
+   "won": false,
+   "phase": 1,
+   "boss_damage": 0.29000000000000004,
+   "hits_taken": 3,
+   "time": 22.389,
+   "reward": 14.841999999999965,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 9.189,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH_WINDUP->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -196.1,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -64.0
+    },
+    {
+     "t": 20.27,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "TRANSFORM->TRANSFORM",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 24.5,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -98.0
+    },
+    {
+     "t": 22.319,
+     "phase": 1,
+     "hp_after": 0,
+     "boss_move": "TRANSFORM->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -18.0,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -98.0
+    }
+   ]
+  }
+ ],
+ "causes": [
+  [
+   "I",
+   "BODY",
+   "IDLE->IDLE",
+   7
+  ],
+  [
+   "I",
+   "BODY",
+   "JUMP->IDLE",
+   6
+  ],
+  [
+   "I",
+   "BODY",
+   "PUNCH->PUNCH",
+   5
+  ],
+  [
+   "I",
+   "BODY",
+   "JUMP->JUMP",
+   3
+  ],
+  [
+   "I",
+   "FIST",
+   "PUNCH->PUNCH",
+   2
+  ],
+  [
+   "I",
+   "BODY",
+   "PUNCH_WINDUP->PUNCH",
+   2
+  ],
+  [
+   "II",
+   "BODY",
+   "IDLE->IDLE",
+   1
+  ],
+  [
+   "II",
+   "FIST",
+   "PUNCH->PUNCH",
+   1
+  ],
+  [
+   "I",
+   "BODY",
+   "IDLE->JUMP",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "TRANSFORM->TRANSFORM",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "TRANSFORM->IDLE",
+   1
+  ]
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "checks": [
+  {
+   "check": "ground dash distance",
+   "measured": 312,
+   "expected": 330.0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "dash duration (ticks)",
+   "measured": 18,
+   "expected": 18,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "jump full-hold apex",
+   "measured": 283.3,
+   "expected": 283.3,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "jump full-hold airtime (s)",
+   "measured": 0.633,
+   "expected": 0.667,
+   "pass": true,
+   "note": "airborne ticks counted from the state stream"
+  },
+  {
+   "check": "jump tap apex",
+   "measured": 133.5,
+   "expected": 133.5,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "run speed (u/s)",
+   "measured": 490,
+   "expected": 490.0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "air dashes per airtime",
+   "measured": 1,
+   "expected": 1,
+   "pass": true,
+   "note": "two dash presses in one jump"
+  },
+  {
+   "check": "air dash vy during dash",
+   "measured": 0,
+   "expected": 0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "peashooter interval (ticks)",
+   "measured": [
+    8
+   ],
+   "expected": [
+    8
+   ],
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "peashooter damage/hit",
+   "measured": [
+    4
+   ],
+   "expected": [
+    4.0
+   ],
+   "pass": true,
+   "note": "8 = two hits in one tick"
+  },
+  {
+   "check": "EX fires with 1 card",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "EX costs one card",
+   "measured": 1,
+   "expected": 1.0,
+   "pass": true,
+   "note": "meter also regains 0.0625/damage from the EX hits"
+  },
+  {
+   "check": "EX blocked without a card",
+   "measured": false,
+   "expected": true,
+   "pass": true,
+   "note": "meter=0.00"
+  },
+  {
+   "check": "duck hurtbox half_h",
+   "measured": 17.5,
+   "expected": 17.5,
+   "pass": true,
+   "note": "standing 52.5"
+  },
+  {
+   "check": "question marks are OTHER",
+   "measured": [
+    4
+   ],
+   "expected": [
+    4
+   ],
+   "pass": true,
+   "note": "spec: harmless parryable objects"
+  },
+  {
+   "check": "parry on question mark",
+   "measured": 1,
+   "expected": ">=1",
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "no_hit reported",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": "after invincible(True)"
+  },
+  {
+   "check": "phase stays SMALL until transform",
+   "measured": 0,
+   "expected": 0,
+   "pass": true,
+   "note": "boss_hp_frac 0.76 < 0.76"
+  },
+  {
+   "check": "phase BIG with big entity",
+   "measured": 1,
+   "expected": 1,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "big Goopy at rest: one BODY",
+   "measured": [
+    1
+   ],
+   "expected": [
+    1
+   ],
+   "pass": true,
+   "note": "439 resting ticks"
+  },
+  {
+   "check": "no TOMB hazard while patrolling",
+   "measured": 0,
+   "expected": 0,
+   "pass": true,
+   "note": "472 patrol ticks"
+  },
+  {
+   "check": "TOMB hazard during the slam",
+   "measured": 30,
+   "expected": ">0",
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "max boss/hazard speed",
+   "measured": 5760,
+   "expected": "<= 6000",
+   "pass": true,
+   "note": "no spikes on entity changes"
+  },
+  {
+   "check": "tomb: standing shots",
+   "measured": 0,
+   "expected": 0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "tomb: aim-up shots damage",
+   "measured": 36,
+   "expected": ">0",
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "determinism (seed, fs=1)",
+   "measured": "identical to t=1.9s; max |dx| player 411 boss 680; boss move agree 91%; end hp 1176/1164",
+   "expected": "identical",
+   "pass": false,
+   "note": "747 steps of 1 ticks"
+  },
+  {
+   "check": "different seed differs",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "determinism (seed, fs=4)",
+   "measured": "identical to t=Nones; max |dx| player 0 boss 0; boss move agree 100%; end hp 1140/1140",
+   "expected": "identical",
+   "pass": true,
+   "note": "151 steps of 4 ticks"
+  },
+  {
+   "check": "different seed differs",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "time_scale 4 vs 1 (fs=4)",
+   "measured": "max boss dx 574, move agree 39%",
+   "expected": "small",
+   "pass": false,
+   "note": "151 steps compared"
+  },
+  {
+   "check": "no_hit cleared on reconnect",
+   "measured": false,
+   "expected": false,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "second client refused",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env time after reset (start_phase=0)",
+   "measured": 0,
+   "expected": 0.0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env phase (start_phase=0)",
+   "measured": 0,
+   "expected": 0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env no_hit off",
+   "measured": false,
+   "expected": false,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env time after reset (start_phase=2)",
+   "measured": 0.0,
+   "expected": 0.0,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env phase (start_phase=2)",
+   "measured": 2,
+   "expected": 2,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "env no_hit off",
+   "measured": false,
+   "expected": false,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "second env in process refused",
+   "measured": true,
+   "expected": true,
+   "pass": true,
+   "note": ""
+  },
+  {
+   "check": "loadout",
+   "measured": {
+    "primary": "level_weapon_peashot",
+    "secondary": "None",
+    "charm": "None",
+    "super": "None"
+   },
+   "expected": "peashooter only",
+   "pass": true,
+   "note": ""
+  }
+ ],
+ "throughput": [
+  {
+   "time_scale": 1.0,
+   "frame_skip": 2,
+   "steps_per_s": 87.2,
+   "ticks_per_s": 174,
+   "x_realtime": 2.91,
+   "ticks_per_step": 2.0
+  },
+  {
+   "time_scale": 1.0,
+   "frame_skip": 4,
+   "steps_per_s": 43.7,
+   "ticks_per_s": 175,
+   "x_realtime": 2.91,
+   "ticks_per_step": 4.0
+  },
+  {
+   "time_scale": 2.0,
+   "frame_skip": 2,
+   "steps_per_s": 174.5,
+   "ticks_per_s": 349,
+   "x_realtime": 5.82,
+   "ticks_per_step": 2.0
+  },
+  {
+   "time_scale": 2.0,
+   "frame_skip": 4,
+   "steps_per_s": 87.5,
+   "ticks_per_s": 350,
+   "x_realtime": 5.83,
+   "ticks_per_step": 4.0
+  },
+  {
+   "time_scale": 4.0,
+   "frame_skip": 2,
+   "steps_per_s": 174.5,
+   "ticks_per_s": 698,
+   "x_realtime": 11.63,
+   "ticks_per_step": 4.0
+  },
+  {
+   "time_scale": 4.0,
+   "frame_skip": 4,
+   "steps_per_s": 174.7,
+   "ticks_per_s": 699,
+   "x_realtime": 11.64,
+   "ticks_per_step": 4.0
+  }
+ ]
+}

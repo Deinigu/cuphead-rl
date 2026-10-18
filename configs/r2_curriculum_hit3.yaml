@@ -1,0 +1,15 @@
+# Round 2 (final sim v4): reverse curriculum, hit penalty -3. Compare -3 (reward v1) vs -8:
+# round 1 showed the agent trading hits for damage (stands still 87 % of the time).
+name: r2_curriculum_hit3
+algo: ppo
+n_envs: 8
+torch_threads: 2
+total_timesteps: 15_000_000
+frame_skip: 4
+eval_every: 500_000
+reward:
+  hit_taken: -3.0
+curriculum:
+  enabled: true
+  adaptive: true
+  promote_at: 0.6

@@ -1,0 +1,581 @@
+{
+ "episodes": [
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 0,
+   "seed": 10000,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.349,
+   "reward": 156.30399999999975,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.333,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 516.3,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 534.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 1,
+   "seed": 10001,
+   "won": false,
+   "phase": 2,
+   "boss_damage": 0.90334,
+   "hits_taken": 3,
+   "time": 41.849,
+   "reward": 80.70599999999992,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 24.466,
+     "phase": 1,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 200.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 272.0
+    },
+    {
+     "t": 28.2,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "FIST",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 19.5,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -368.3
+    },
+    {
+     "t": 41.799,
+     "phase": 2,
+     "hp_after": 0,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 1.0,
+     "when": "post",
+     "player": {
+      "x": 293.0,
+      "y": 208.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 392.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 2,
+   "seed": 10002,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 45.883,
+   "reward": 156.31099999999986,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.0,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 410.3,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 3,
+   "seed": 10003,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 44.516,
+   "reward": 156.33199999999977,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 40.933,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 257.3,
+      "y": 36.9,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 385.3
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 4,
+   "seed": 10004,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 48.283,
+   "reward": 159.2749999999997,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 5,
+   "seed": 10005,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 46.449,
+   "reward": 159.30299999999977,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 6,
+   "seed": 10006,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 44.599,
+   "reward": 153.32999999999987,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.067,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 458.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 544.0
+    },
+    {
+     "t": 40.666,
+     "phase": 2,
+     "hp_after": 1,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 232.7,
+      "y": 67.0,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 218.8
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 7,
+   "seed": 10007,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 45.466,
+   "reward": 159.31699999999978,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 8,
+   "seed": 10008,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.633,
+   "reward": 156.29999999999967,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 41.266,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": 68.7,
+      "y": 156.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 333.2
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 9,
+   "seed": 10009,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 49.133,
+   "reward": 159.26199999999957,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 10,
+   "seed": 10010,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.516,
+   "reward": 156.30199999999974,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 11.333,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": -280.9,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -95.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 11,
+   "seed": 10011,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.633,
+   "reward": 156.2999999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 40.866,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -49.1,
+      "y": 64.9,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -74.1
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 12,
+   "seed": 10012,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 45.499,
+   "reward": 156.31699999999964,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 39.066,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -207.4,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 68.9
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 13,
+   "seed": 10013,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 51.583,
+   "reward": 153.22599999999943,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.333,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 516.3,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 534.0
+    },
+    {
+     "t": 50.199,
+     "phase": 2,
+     "hp_after": 1,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -435.7,
+      "y": 74.9,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -188.9
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 14,
+   "seed": 10014,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 45.966,
+   "reward": 156.30999999999966,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 39.6,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -613.5,
+      "y": 31.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -380.3
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 15,
+   "seed": 10015,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.649,
+   "reward": 156.29999999999978,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 42.399,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": 53.7,
+      "y": 156.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 318.2
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 16,
+   "seed": 10016,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 46.099,
+   "reward": 159.3079999999997,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 17,
+   "seed": 10017,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 46.149,
+   "reward": 159.30699999999973,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 18,
+   "seed": 10018,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 46.116,
+   "reward": 159.3079999999997,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r3dr_lockstep",
+   "episode": 19,
+   "seed": 10019,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 46.649,
+   "reward": 156.29999999999967,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 44.133,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -600.3,
+      "y": 143.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -462.1
+    }
+   ]
+  }
+ ],
+ "causes": [
+  [
+   "III",
+   "TOMB",
+   "TOMB_SLAM->TOMB_SLAM",
+   10
+  ],
+  [
+   "I",
+   "BODY",
+   "PUNCH->PUNCH",
+   4
+  ],
+  [
+   "II",
+   "BODY",
+   "JUMP->JUMP",
+   1
+  ],
+  [
+   "II",
+   "FIST",
+   "PUNCH->PUNCH",
+   1
+  ],
+  [
+   "I",
+   "BODY",
+   "IDLE->IDLE",
+   1
+  ]
+ ]
+}

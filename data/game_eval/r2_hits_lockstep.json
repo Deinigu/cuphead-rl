@@ -1,0 +1,872 @@
+{
+ "episodes": [
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 0,
+   "seed": 10000,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 52.566,
+   "reward": 153.21099999999973,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 4.2,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 139.8,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 42.0
+    },
+    {
+     "t": 29.066,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "FIST",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -197.8,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 285.3
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 1,
+   "seed": 10001,
+   "won": false,
+   "phase": 1,
+   "boss_damage": 0.73167,
+   "hits_taken": 3,
+   "time": 39.266,
+   "reward": 58.577999999999975,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 9.933,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 236.2,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 194.0
+    },
+    {
+     "t": 37.2,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 226.3,
+      "y": 70.7,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 115.0
+    },
+    {
+     "t": 39.2,
+     "phase": 1,
+     "hp_after": 0,
+     "boss_move": "TRANSFORM->TRANSFORM",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 268.8,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 115.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 2,
+   "seed": 10002,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 57.316,
+   "reward": 156.1399999999999,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.0,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 408.5,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 3,
+   "seed": 10003,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 50.316,
+   "reward": 153.2449999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 7.467,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -29.3,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -103.0
+    },
+    {
+     "t": 17.067,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -51.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 14.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 4,
+   "seed": 10004,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 53.116,
+   "reward": 153.20299999999963,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.0,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 408.5,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    },
+    {
+     "t": 16.4,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -147.5,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -10.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 5,
+   "seed": 10005,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 53.133,
+   "reward": 156.2019999999995,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 22.933,
+     "phase": 1,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -137.3,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -272.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 6,
+   "seed": 10006,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 50.533,
+   "reward": 156.24099999999964,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 7.733,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -85.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -236.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 7,
+   "seed": 10007,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 53.333,
+   "reward": 156.19899999999964,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 10.4,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 216.2,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 194.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 8,
+   "seed": 10008,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 53.133,
+   "reward": 159.20199999999954,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 9,
+   "seed": 10009,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 52.349,
+   "reward": 153.21399999999988,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 4.2,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 139.8,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 42.0
+    },
+    {
+     "t": 9.267,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 6.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -68.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 10,
+   "seed": 10010,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 53.283,
+   "reward": 156.19999999999942,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 9.133,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 46.8,
+      "y": -1.7,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -68.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 11,
+   "seed": 10011,
+   "won": false,
+   "phase": 0,
+   "boss_damage": 0.28750166666666666,
+   "hits_taken": 3,
+   "time": 16.9,
+   "reward": 9.496166666666666,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 4.2,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 139.8,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 42.0
+    },
+    {
+     "t": 10.067,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 255.5,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 194.0
+    },
+    {
+     "t": 16.867,
+     "phase": 0,
+     "hp_after": 0,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -182.5,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -131.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 12,
+   "seed": 10012,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 52.266,
+   "reward": 159.21499999999943,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 13,
+   "seed": 10013,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 59.499,
+   "reward": 153.1069999999996,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 11.133,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 182.8,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 154.0
+    },
+    {
+     "t": 51.799,
+     "phase": 2,
+     "hp_after": 1,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -461.0,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -215.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 14,
+   "seed": 10014,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 52.116,
+   "reward": 153.21799999999956,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 9.133,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -54.3,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -64.0
+    },
+    {
+     "t": 46.133,
+     "phase": 2,
+     "hp_after": 1,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -264.1,
+      "y": 27.4,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 11.5
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 15,
+   "seed": 10015,
+   "won": false,
+   "phase": 1,
+   "boss_damage": 0.6583366666666667,
+   "hits_taken": 3,
+   "time": 34.8,
+   "reward": 51.31166666666672,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.8,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "pre",
+     "player": {
+      "x": 28.7,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 84.0
+    },
+    {
+     "t": 16.4,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 418.5,
+      "y": 38.6,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 348.0
+    },
+    {
+     "t": 34.733,
+     "phase": 1,
+     "hp_after": 0,
+     "boss_move": "IDLE->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -128.5,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 29.3
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 16,
+   "seed": 10016,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 52.799,
+   "reward": 153.2069999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 4.2,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 139.8,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 42.0
+    },
+    {
+     "t": 10.133,
+     "phase": 0,
+     "hp_after": 1,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 241.3,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 320.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 17,
+   "seed": 10017,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 50.299,
+   "reward": 153.24499999999972,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 9.133,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 179.8,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 75.0
+    },
+    {
+     "t": 33.466,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -126.8,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": 56.7
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 18,
+   "seed": 10018,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 55.066,
+   "reward": 156.17299999999946,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 22.933,
+     "phase": 1,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -138.7,
+      "y": 64.8,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -272.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_lockstep_log",
+   "episode": 19,
+   "seed": 10019,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 2,
+   "time": 57.249,
+   "reward": 153.14099999999956,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 13.4,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -59.7,
+      "y": 83.2,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -14.0
+    },
+    {
+     "t": 24.933,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 79.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": true
+     },
+     "boss_x": 56.7
+    }
+   ]
+  }
+ ],
+ "causes": [
+  [
+   "I",
+   "BODY",
+   "PUNCH->PUNCH",
+   15
+  ],
+  [
+   "I",
+   "BODY",
+   "IDLE->IDLE",
+   4
+  ],
+  [
+   "II",
+   "BODY",
+   "JUMP->JUMP",
+   4
+  ],
+  [
+   "I",
+   "BODY",
+   "JUMP->JUMP",
+   3
+  ],
+  [
+   "III",
+   "TOMB",
+   "TOMB_SLAM->TOMB_SLAM",
+   2
+  ],
+  [
+   "II",
+   "FIST",
+   "PUNCH->PUNCH",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "TRANSFORM->TRANSFORM",
+   1
+  ],
+  [
+   "I",
+   "BODY",
+   "JUMP->IDLE",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "IDLE->JUMP",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "IDLE->IDLE",
+   1
+  ]
+ ]
+}

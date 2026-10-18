@@ -1,0 +1,234 @@
+{
+ "seed": 7,
+ "pass": false,
+ "matched_ticks": {
+  "p": 22,
+  "b": 22
+ },
+ "max_diff": {
+  "p": 774.6070000000001,
+  "b": 1456.26
+ },
+ "rows": [
+  {
+   "tick": 4,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 8,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 12,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 16,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 20,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 24,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 28,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 32,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 36,
+   "sim_vy": 1223.1,
+   "player_y": 74.886,
+   "player_vy_f1": 1123.237,
+   "player_vy_f4": 1123.237,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 40,
+   "sim_vy": 1223.1,
+   "player_y": 149.768,
+   "player_vy_f1": 1123.237,
+   "player_vy_f4": 1123.237,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 44,
+   "sim_vy": 923.5,
+   "player_y": 219.657,
+   "player_vy_f1": 923.511,
+   "player_vy_f4": 1048.34,
+   "boss_y": 109.528,
+   "boss_vy_f1": 1891.666,
+   "boss_vy_f4": 472.917
+  },
+  {
+   "tick": 48,
+   "sim_vy": 524.1,
+   "player_y": 264.581,
+   "player_vy_f1": 524.059,
+   "player_vy_f4": 673.853,
+   "boss_y": 217.583,
+   "boss_vy_f1": 1458.333,
+   "boss_vy_f4": 1620.833
+  },
+  {
+   "tick": 52,
+   "sim_vy": 124.6,
+   "player_y": 282.874,
+   "player_vy_f1": 124.607,
+   "player_vy_f4": 274.401,
+   "boss_y": 296.75,
+   "boss_vy_f1": 1025,
+   "boss_vy_f4": 1187.5
+  },
+  {
+   "tick": 56,
+   "sim_vy": -274.8,
+   "player_y": 274.538,
+   "player_vy_f1": -274.845,
+   "player_vy_f4": -125.051,
+   "boss_y": 347.028,
+   "boss_vy_f1": 591.666,
+   "boss_vy_f4": 754.166
+  },
+  {
+   "tick": 60,
+   "sim_vy": -674.3,
+   "player_y": 239.571,
+   "player_vy_f1": -674.297,
+   "player_vy_f4": -524.503,
+   "boss_y": 368.417,
+   "boss_vy_f1": 158.333,
+   "boss_vy_f4": 320.833
+  },
+  {
+   "tick": 64,
+   "sim_vy": -1073.7,
+   "player_y": 177.974,
+   "player_vy_f1": -1073.749,
+   "player_vy_f4": -923.955,
+   "boss_y": 360.917,
+   "boss_vy_f1": -275.001,
+   "boss_vy_f4": -112.501
+  },
+  {
+   "tick": 68,
+   "sim_vy": -1473.2,
+   "player_y": 89.747,
+   "player_vy_f1": -1473.202,
+   "player_vy_f4": -1323.407,
+   "boss_y": 324.528,
+   "boss_vy_f1": -708.334,
+   "boss_vy_f4": -545.834
+  },
+  {
+   "tick": 72,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": -571.545,
+   "player_vy_f4": -1346.152,
+   "boss_y": 259.25,
+   "boss_vy_f1": -1141.667,
+   "boss_vy_f4": -979.167
+  },
+  {
+   "tick": 76,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 165.083,
+   "boss_vy_f1": -1575.001,
+   "boss_vy_f4": -1412.501
+  },
+  {
+   "tick": 80,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 150.013,
+   "boss_vy_f4": -1306.247
+  },
+  {
+   "tick": 84,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  },
+  {
+   "tick": 88,
+   "sim_vy": 0.0,
+   "player_y": 0.003,
+   "player_vy_f1": 0,
+   "player_vy_f4": 0,
+   "boss_y": 78,
+   "boss_vy_f1": 0,
+   "boss_vy_f4": 0
+  }
+ ]
+}

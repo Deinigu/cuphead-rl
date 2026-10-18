@@ -1,0 +1,306 @@
+{
+ "episodes": [
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 0,
+   "seed": 10000,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 54.549,
+   "reward": 156.1809999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.333,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 570.0,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 534.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 1,
+   "seed": 10001,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 46.799,
+   "reward": 159.29699999999963,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 2,
+   "seed": 10002,
+   "won": false,
+   "phase": 1,
+   "boss_damage": 0.6050033333333333,
+   "hits_taken": 3,
+   "time": 29.8,
+   "reward": 46.05333333333343,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.0,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 441.3,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 404.0
+    },
+    {
+     "t": 18.133,
+     "phase": 1,
+     "hp_after": 1,
+     "boss_move": "TRANSFORM->TRANSFORM",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -43.0,
+      "y": 14.5,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -222.0
+    },
+    {
+     "t": 29.733,
+     "phase": 1,
+     "hp_after": 0,
+     "boss_move": "IDLE->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -118.3,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 62.7
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 3,
+   "seed": 10003,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 56.033,
+   "reward": 156.15899999999962,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 8.0,
+     "phase": 0,
+     "hp_after": 2,
+     "boss_move": "PUNCH->PUNCH",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 554.7,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": 534.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 4,
+   "seed": 10004,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 45.549,
+   "reward": 156.3159999999998,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 40.999,
+     "phase": 2,
+     "hp_after": 2,
+     "boss_move": "TOMB_SLAM->TOMB_SLAM",
+     "cause": "TOMB",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": 35.5,
+      "y": 74.9,
+      "airborne": true,
+      "dashing": false
+     },
+     "boss_x": -19.9
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 5,
+   "seed": 10005,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 48.799,
+   "reward": 156.2669999999997,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 23.0,
+     "phase": 1,
+     "hp_after": 2,
+     "boss_move": "JUMP->IDLE",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -102.0,
+      "y": 0.0,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -259.3
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 6,
+   "seed": 10006,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 47.966,
+   "reward": 159.27999999999966,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 7,
+   "seed": 10007,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 51.533,
+   "reward": 159.22599999999957,
+   "parries": 0,
+   "hits": []
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 8,
+   "seed": 10008,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 1,
+   "time": 50.049,
+   "reward": 156.24899999999968,
+   "parries": 0,
+   "hits": [
+    {
+     "t": 20.6,
+     "phase": 1,
+     "hp_after": 2,
+     "boss_move": "JUMP->JUMP",
+     "cause": "BODY",
+     "gap": 0.0,
+     "when": "post",
+     "player": {
+      "x": -57.5,
+      "y": -1.7,
+      "airborne": false,
+      "dashing": false
+     },
+     "boss_x": -166.0
+    }
+   ]
+  },
+  {
+   "source": "videos\\game_r2_paced",
+   "episode": 9,
+   "seed": 10009,
+   "won": true,
+   "phase": 2,
+   "boss_damage": 1.0,
+   "hits_taken": 0,
+   "time": 47.349,
+   "reward": 159.28899999999965,
+   "parries": 0,
+   "hits": []
+  }
+ ],
+ "causes": [
+  [
+   "I",
+   "BODY",
+   "PUNCH->PUNCH",
+   3
+  ],
+  [
+   "II",
+   "BODY",
+   "TRANSFORM->TRANSFORM",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "IDLE->IDLE",
+   1
+  ],
+  [
+   "III",
+   "TOMB",
+   "TOMB_SLAM->TOMB_SLAM",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "JUMP->IDLE",
+   1
+  ],
+  [
+   "II",
+   "BODY",
+   "JUMP->JUMP",
+   1
+  ]
+ ]
+}

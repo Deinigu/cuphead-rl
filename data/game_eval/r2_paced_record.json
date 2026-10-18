@@ -1,0 +1,138 @@
+{
+  "best_seed": 10004,
+  "win_seed": 10000,
+  "episodes": 10,
+  "win_rate": 0.9,
+  "boss_damage": 0.9605003333333333,
+  "max_boss_damage": 1.0,
+  "max_phase": 2,
+  "mean_phase": 1.9,
+  "hits_taken": 0.8,
+  "reward": 146.43173333333306,
+  "win_time": 49.84733333333333,
+  "parries": 0.0,
+  "per_episode": [
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 1,
+      "time": 54.549,
+      "reward": 156.1809999999997,
+      "parries": 0,
+      "seed": 10000,
+      "wall_seconds": 57.52
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 0,
+      "time": 46.799,
+      "reward": 159.29699999999963,
+      "parries": 0,
+      "seed": 10001,
+      "wall_seconds": 49.73
+    },
+    {
+      "won": false,
+      "phase": 1,
+      "boss_damage": 0.6050033333333333,
+      "hits_taken": 3,
+      "time": 29.8,
+      "reward": 46.05333333333343,
+      "parries": 0,
+      "seed": 10002,
+      "wall_seconds": 32.66
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 1,
+      "time": 56.033,
+      "reward": 156.15899999999962,
+      "parries": 0,
+      "seed": 10003,
+      "wall_seconds": 59.01
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 1,
+      "time": 45.549,
+      "reward": 156.3159999999998,
+      "parries": 0,
+      "seed": 10004,
+      "wall_seconds": 48.24
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 1,
+      "time": 48.799,
+      "reward": 156.2669999999997,
+      "parries": 0,
+      "seed": 10005,
+      "wall_seconds": 51.81
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 0,
+      "time": 47.966,
+      "reward": 159.27999999999966,
+      "parries": 0,
+      "seed": 10006,
+      "wall_seconds": 50.91
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 0,
+      "time": 51.533,
+      "reward": 159.22599999999957,
+      "parries": 0,
+      "seed": 10007,
+      "wall_seconds": 54.41
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 1,
+      "time": 50.049,
+      "reward": 156.24899999999968,
+      "parries": 0,
+      "seed": 10008,
+      "wall_seconds": 52.97
+    },
+    {
+      "won": true,
+      "phase": 2,
+      "boss_damage": 1.0,
+      "hits_taken": 0,
+      "time": 47.349,
+      "reward": 159.28899999999965,
+      "parries": 0,
+      "seed": 10009,
+      "wall_seconds": 50.3
+    }
+  ],
+  "mean_survival_time": 47.84259999999999,
+  "settings": {
+    "checkpoint": "runs\\r2_curriculum_hit3\\final.zip",
+    "config": "runs\\r2_curriculum_hit3\\config.yaml",
+    "mode": "paced",
+    "character": "mugman",
+    "deterministic": true,
+    "frame_skip": 4,
+    "frame_stack": 1,
+    "start_phase": null,
+    "encoder": "h264_amf"
+  }
+}

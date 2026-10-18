@@ -1,0 +1,82 @@
+{
+  "best_seed": 10002,
+  "win_seed": null,
+  "episodes": 5,
+  "win_rate": 0.0,
+  "boss_damage": 0.4966666666666667,
+  "max_boss_damage": 0.6733333333333333,
+  "max_phase": 1,
+  "mean_phase": 0.8,
+  "hits_taken": 3.0,
+  "reward": 34.32066666666665,
+  "win_time": null,
+  "parries": 0.0,
+  "per_episode": [
+    {
+      "won": false,
+      "phase": 1,
+      "boss_damage": 0.6133333333333333,
+      "hits_taken": 3,
+      "time": 34.078,
+      "reward": 46.92933333333333,
+      "parries": 0,
+      "seed": 10000,
+      "wall_seconds": 37.4
+    },
+    {
+      "won": false,
+      "phase": 1,
+      "boss_damage": 0.45999999999999996,
+      "hits_taken": 3,
+      "time": 26.013,
+      "reward": 31.697,
+      "parries": 0,
+      "seed": 10001,
+      "wall_seconds": 29.15
+    },
+    {
+      "won": false,
+      "phase": 1,
+      "boss_damage": 0.6733333333333333,
+      "hits_taken": 3,
+      "time": 39.672,
+      "reward": 52.87333333333324,
+      "parries": 0,
+      "seed": 10002,
+      "wall_seconds": 42.64
+    },
+    {
+      "won": false,
+      "phase": 0,
+      "boss_damage": 0.2733333333333333,
+      "hits_taken": 3,
+      "time": 19.873,
+      "reward": 8.103333333333326,
+      "parries": 0,
+      "seed": 10003,
+      "wall_seconds": 22.97
+    },
+    {
+      "won": false,
+      "phase": 1,
+      "boss_damage": 0.4633333333333334,
+      "hits_taken": 3,
+      "time": 28.203,
+      "reward": 32.00033333333335,
+      "parries": 0,
+      "seed": 10004,
+      "wall_seconds": 31.27
+    }
+  ],
+  "mean_survival_time": 29.5678,
+  "settings": {
+    "checkpoint": "runs\\ppo_curriculum\\best.zip",
+    "config": "runs\\ppo_curriculum\\config.yaml",
+    "mode": "free",
+    "character": "mugman",
+    "deterministic": true,
+    "frame_skip": 4,
+    "frame_stack": 1,
+    "start_phase": null
+  }
+}

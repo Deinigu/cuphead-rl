@@ -1,0 +1,11 @@
+# Experiment 4: reverse phase curriculum (tombstone first, then phase 2+, then full fight).
+name: ppo_curriculum
+algo: ppo
+n_envs: 16
+total_timesteps: 30_000_000
+frame_skip: 4
+eval_every: 500_000
+curriculum:
+  enabled: true
+  adaptive: true
+  promote_at: 0.6

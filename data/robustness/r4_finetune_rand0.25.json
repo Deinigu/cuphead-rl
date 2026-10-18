@@ -1,0 +1,14 @@
+{
+  "best_seed": 20027,
+  "win_seed": 20000,
+  "episodes": 100,
+  "win_rate": 0.94,
+  "boss_damage": 0.9818916999999999,
+  "max_boss_damage": 1.0,
+  "max_phase": 2,
+  "mean_phase": 1.96,
+  "hits_taken": 0.85,
+  "reward": 151.15308999999976,
+  "win_time": 46.45939716312057,
+  "parries": 0.0
+}

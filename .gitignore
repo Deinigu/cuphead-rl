@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+runs/
+checkpoints/
+*.zip
+!assets/**/*.zip
+# Large media lives outside git; curated clips are listed in docs/VIDEOS.md
+videos/
+# Game bridge build outputs
+mod/**/bin/
+mod/**/obj/
+tools/decompiled/
+*.log
+# local save fingerprints (tools/check_saves.py)
+data/save_safety/
