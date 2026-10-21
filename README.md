@@ -9,6 +9,7 @@ Trained entirely in a custom simulator, then played in the real game with no ext
 [![Stable-Baselines3](https://img.shields.io/badge/RL-Stable--Baselines3%20PPO-orange)](https://github.com/DLR-RM/stable-baselines3)
 [![BepInEx](https://img.shields.io/badge/mod-BepInEx%205%20%2B%20Harmony-6f42c1)](https://github.com/BepInEx/BepInEx)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![YouTube video](https://img.shields.io/badge/YouTube-watch%20the%20video-FF0000?logo=youtube&logoColor=white)](https://youtu.be/jQbCzExSfpI)
 
 <img src="docs/media/tombstone_knockout.gif" alt="The agent, playing as Mugman in the real game, aims up and destroys Goopy's tombstone" width="640">
 
@@ -27,8 +28,18 @@ Trained entirely in a custom simulator, then played in the real game with no ext
 12 of the 20 lockstep fights were won without taking a hit. The trained model is available in the
 [v1.0 release](https://github.com/Deinigu/cuphead-rl/releases/tag/v1.0).
 
+## Video
+
+<p align="center">
+  <a href="https://youtu.be/jQbCzExSfpI">
+    <img src="docs/media/video_thumbnail.jpg" alt="Watch the video: AI vs Cuphead's first boss" width="640">
+  </a><br>
+  <em>An 8-minute walkthrough of the project: the simulator, the training, the bugs and the sim-to-real gap.</em>
+</p>
+
 ## Contents
 
+- [Video](#video)
 - [Highlights](#highlights)
 - [How it works](#how-it-works)
 - [Closing the sim-to-real gap](#closing-the-sim-to-real-gap)
