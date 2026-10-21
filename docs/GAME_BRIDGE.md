@@ -283,7 +283,9 @@ Close the game and run `python tools/check_saves.py --assert-unchanged data/save
   * `free`: the free-running game in real time (about 35 s wall for a 32 s fight). This is **not**
     the setting the sim was calibrated on (see "Why free-run differs").
 * `--record DIR` writes `episode_XX.mp4` (60 fps, native resolution, h264_amf by default; `--encoder`
-  selects another one) and `episode_XX.jsonl` (meta + one line per decision: game time, wall time,
+  selects another one; game audio from WASAPI loopback in a separate process, `--no-audio` to skip it;
+  the intro plays at real speed, `--fast-intro` to skip it, and the knockout or death card and results
+  screen are kept) and `episode_XX.jsonl` (meta + one line per decision: game time, wall time,
   action, value, probs, reward/return, phase, boss HP, player HP, and the compact post-step state:
   player, boss move/box, hazard boxes). `--log DIR` writes the same logs without a video, e.g. for a
   lockstep evaluation. `scripts/game_hits.py DIR...` uses them to find the likely cause of every hit

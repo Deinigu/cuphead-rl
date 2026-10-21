@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import bisect
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -83,6 +84,12 @@ def overlay_video(video: Path, log: Path, out: Path, title: str, offset: float =
         writer.close()
         reader.close()
         renderer.close()
+    # Frame n of the output is source time n / FPS, so the source's audio track lines up as is.
+    tmp = out.with_suffix(".mux.mp4")
+    subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-i", str(out), "-i", str(video),
+                    "-map", "0:v", "-map", "1:a?", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
+                    str(tmp)], check=True, stdin=subprocess.DEVNULL)
+    tmp.replace(out)
     return {"out": str(out), "frames": n, "seconds": round(n / FPS, 2), "decisions": len(steps),
             "source_size": src_meta.get("source_size"), "first_decision_at": round(walls[0], 3) if walls else None}
 

@@ -30,6 +30,9 @@ namespace CupheadRLBridge
 
         /// <summary>Seed for UnityEngine.Random, applied when the next fight's SlimeLevel starts.</summary>
         public static int? PendingSeed;
+        // Set per reset: play the level load and intro at real-time speed (for recordings) instead of
+        // IntroTimeScale, and in lockstep cap rendering at 60 fps until the fight starts.
+        bool realtimeIntro;
 
         /// <summary>Debug: player one ignores all hits (no damage, no knockback).</summary>
         public static bool NoHit;
@@ -315,6 +318,7 @@ namespace CupheadRLBridge
                 case "reset":
                 case "goto":
                     PendingSeed = m.ContainsKey("seed") && m["seed"] != null ? (int?)(int)Json.Num(m, "seed", 0) : null;
+                    realtimeIntro = Json.Bool(m, "realtime_intro", false);
                     string ch = Json.Str(m, "character", null);
                     if (ch == "mugman" || ch == "cuphead") { Mugman = ch == "mugman"; ApplyCharacter(); }
                     else if (ch != null) { Reply("error", "unknown character '" + ch + "' (mugman|cuphead)"); return false; }
@@ -427,12 +431,12 @@ namespace CupheadRLBridge
 
         void ApplyTimeMode()
         {
-            Time.timeScale = resetting ? Plugin.IntroTimeScale.Value : timeScale;
+            Time.timeScale = resetting ? (realtimeIntro ? 1f : Plugin.IntroTimeScale.Value) : timeScale;
             if (lockstep)
             {
                 if (originalVSync < 0) originalVSync = QualitySettings.vSyncCount;
                 QualitySettings.vSyncCount = 0;
-                Application.targetFrameRate = -1;
+                Application.targetFrameRate = resetting && realtimeIntro ? 60 : -1;
                 Time.captureFramerate = 60;
                 // fixedDeltaTime ships as 0.016666669 but a captured frame is 1/60f = 0.016666668:
                 // with them unequal, absolute-time float drift makes some frames run 0 or 2 ticks

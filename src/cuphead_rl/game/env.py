@@ -123,7 +123,8 @@ class CupheadGameEnv(gym.Env):
     def reset(self, *, seed: int | None = None, options: dict | None = None):
         super().reset(seed=seed)
         bridge_seed = int(self.np_random.integers(0, 2**31 - 1))
-        msg = self.client.reset(seed=bridge_seed, character=self.character)
+        msg = self.client.reset(seed=bridge_seed, character=self.character,
+                                realtime_intro=bool((options or {}).get("realtime_intro", False)))
         if msg.get("character") != self.character:
             raise BridgeError(f"bridge plays {msg.get('character')!r}, expected {self.character!r} (outdated plugin?)")
         loadout = (self.client.last_reset or {}).get("loadout")

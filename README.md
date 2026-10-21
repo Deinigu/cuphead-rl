@@ -91,6 +91,9 @@ python -m uv run python -m cuphead_rl.train.evaluate runs/r4_scratch/final.zip -
 python -m uv run python -m cuphead_rl.train.plots runs/r4_scratch -o curves.png
 ```
 
+The final model is attached to the [v1.0 release](https://github.com/Deinigu/cuphead-rl/releases/tag/v1.0)
+as `final.zip`; put it at `runs/r4_finetune/final.zip` to use the commands below without training.
+
 ### Playing the real game
 
 Requires your own copy of Cuphead (Steam, Windows). `tools/install_bepinex.ps1 -Game <Cuphead folder>`

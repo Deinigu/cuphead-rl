@@ -51,7 +51,10 @@ from cuphead_rl.train.agent import AgentPolicy, load_model  # noqa: E402
 from cuphead_rl.train.config import ExperimentConfig  # noqa: E402
 from cuphead_rl.train.evaluate import EpisodeResult, summarize  # noqa: E402
 
-END_HOLD_SECONDS = 2.0  # keep capturing after the end, for the knockout / death screen
+END_HOLD_SECONDS = 2.0  # free-run / lockstep recordings: keep capturing this long after the end
+KO_SECONDS = 9.0  # paced recordings: play on after a win (KNOCKOUT!, then the win screen) ...
+DEATH_SECONDS = 7.0  # ... or after a loss (death animation and the game-over card)
+WIN_SCREEN_SECONDS = 9.0  # once the results screen has loaded, until the grade is shown
 
 
 def compact_state(s: spec.GameState) -> dict:
@@ -98,6 +101,20 @@ class PacedGameEnv(CupheadGameEnv):
                 break
         return msg
 
+    def play_out(self, seconds: float) -> None:
+        """After the episode, keep the game running at real-time speed with no input, so a recording
+        shows the knockout or the death card. In lockstep the game would otherwise freeze on the last
+        frame, waiting for an action. If the win screen loads, it is shown in free-run (lockstep
+        would fast-forward it), then lockstep is restored for the next reset."""
+        end = time.perf_counter() + seconds
+        while time.perf_counter() < end:
+            msg = self._step_raw(spec.Action(), 1)
+            if not msg.get("in_fight"):
+                self.client.configure(lockstep=False, stream_every=0)
+                time.sleep(WIN_SCREEN_SECONDS)
+                self._configure()
+                return
+
 
 def find_config(ckpt: Path) -> Path:
     for d in (ckpt.parent, ckpt.parent.parent):
@@ -123,17 +140,21 @@ def make_env(cfg: ExperimentConfig, mode: str, character: str) -> CupheadGameEnv
 
 def play_episode(env: CupheadGameEnv, policy: AgentPolicy, seed: int, start_phase: int | None,
                  log_dir: Path | None, index: int, meta: dict, record: bool = False,
-                 encoder: str = "h264_amf") -> tuple[EpisodeResult, float]:
+                 encoder: str = "h264_amf", audio: bool = True,
+                 realtime_intro: bool = True) -> tuple[EpisodeResult, float]:
     """One episode. With ``log_dir`` it writes the per-decision log there, and with ``record`` also the video."""
     rec = None
     log: list[dict] = []
     if record:
         from cuphead_rl.game.capture import WindowRecorder
 
-        rec = WindowRecorder(log_dir / f"episode_{index:02d}.mp4", fps=60, crf=18, encoder=encoder).start()
+        rec = WindowRecorder(log_dir / f"episode_{index:02d}.mp4", fps=60, crf=18, encoder=encoder,
+                             audio=audio).start()
     wall0 = time.time()
     try:
-        options = None if start_phase is None else {"start_phase": start_phase}
+        options = {} if start_phase is None else {"start_phase": start_phase}
+        if rec is not None and isinstance(env, PacedGameEnv) and realtime_intro:
+            options["realtime_intro"] = True  # the load and the intro at normal speed, on camera
         obs, info = env.reset(seed=seed, options=options)
         policy.reset()
         start_hp = info.get("player_hp", spec.PLAYER_MAX_HP)
@@ -153,7 +174,9 @@ def play_episode(env: CupheadGameEnv, policy: AgentPolicy, seed: int, start_phas
                              state=compact_state(env.state))
                 log.append(entry)
             step += 1
-        if rec is not None and (isinstance(env, PacedGameEnv) or not env.lockstep):
+        if rec is not None and isinstance(env, PacedGameEnv):
+            env.play_out(KO_SECONDS if info["won"] else DEATH_SECONDS)
+        elif rec is not None and not env.lockstep:
             time.sleep(END_HOLD_SECONDS)
     finally:
         if rec is not None:
@@ -192,8 +215,11 @@ def main() -> None:
     ap.add_argument("--mode", choices=("lockstep", "paced", "free"), help="default: lockstep, or paced with --record")
     ap.add_argument("--seed", type=int, default=10_000)
     ap.add_argument("--encoder", default="h264_amf",
-                    help="capture encoder: h264_amf (default), h264_nvenc, h264_qsv or libx264. libx264 costs enough "
-                         "CPU to slow free-run decisions to ~9 ticks instead of frame_skip")
+                    help="capture encoder: h264_amf (default), h264_nvenc, h264_qsv or libx264. libx264 takes enough CPU "
+                         "to slow paced play below real time (measured 0.78x at 1080p)")
+    ap.add_argument("--fast-intro", action="store_true", help="--record: fast-forward the level load and intro")
+    ap.add_argument("--no-audio", action="store_true",
+                    help="--record without the game sound (default: system audio via WASAPI loopback)")
     ap.add_argument("--out", type=Path, help="stats JSON (default DIR/stats.json with --record)")
     args = ap.parse_args()
 
@@ -214,7 +240,8 @@ def main() -> None:
     try:
         for i in range(args.episodes):
             res, wall = play_episode(env, policy, args.seed + i, args.start_phase, log_dir, i, meta,
-                                     record=bool(args.record), encoder=args.encoder)
+                                     record=bool(args.record), encoder=args.encoder,
+                                     audio=not args.no_audio, realtime_intro=not args.fast_intro)
             results.append(res)
             walls.append(wall)
             print(f"episode {i}: won={res.won} phase={res.phase} boss_damage={res.boss_damage:.3f} "

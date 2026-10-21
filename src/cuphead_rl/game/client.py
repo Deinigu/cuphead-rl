@@ -232,17 +232,21 @@ class BridgeClient:
         self.send({"cmd": "config", **cfg})
         return self.wait_for("config")
 
-    def reset(self, timeout: float = 120.0, seed: int | None = None, character: str | None = None) -> dict[str, Any]:
+    def reset(self, timeout: float = 120.0, seed: int | None = None, character: str | None = None,
+              realtime_intro: bool = False) -> dict[str, Any]:
         """(Re)load the Goopy fight; returns the first state once the fight has started.
 
         ``seed`` seeds UnityEngine.Random when the level starts (reproducible boss patterns in
         lockstep mode). ``character`` ("mugman" | "cuphead") is player one for this and later
-        loads; None keeps the current one (the plugin starts with Mugman)."""
+        loads; None keeps the current one (the plugin starts with Mugman). ``realtime_intro`` plays the
+        load and the intro at normal speed instead of fast-forwarding them (for recordings)."""
         msg: dict[str, Any] = {"cmd": "reset"}
         if seed is not None:
             msg["seed"] = int(seed)
         if character is not None:
             msg["character"] = character
+        if realtime_intro:
+            msg["realtime_intro"] = True
         self.send(msg)
         self.last_reset = self.wait_for("reset_done", timeout=timeout)
         return self.wait_for("state", timeout=timeout, pred=lambda m: m.get("in_fight"))
