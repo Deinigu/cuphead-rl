@@ -113,7 +113,7 @@ and comparing cause by cause.
 ### Requirements
 
 - Python 3.12 and [uv](https://docs.astral.sh/uv/)
-- For the real game only: Windows and your own copy of Cuphead (Steam), plus ffmpeg for recording
+- For the real game only: Windows and your own copy of Cuphead (Steam)
 
 ### Install and test
 
