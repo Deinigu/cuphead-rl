@@ -32,7 +32,7 @@ Trained entirely in a custom simulator, then played in the real game with no ext
 
 <p align="center">
   <a href="https://youtu.be/jQbCzExSfpI">
-    <img src="docs/media/video_thumbnail.jpg" alt="Watch the video: AI vs Cuphead's first boss" width="640">
+    <img src="https://img.youtube.com/vi/jQbCzExSfpI/maxresdefault.jpg" alt="I Trained an AI to Beat Cuphead's First Boss (Sim-to-Real Reinforcement Learning)" width="640">
   </a><br>
   <em>An 8-minute walkthrough of the project: the simulator, the training, the bugs and the sim-to-real gap.</em>
 </p>
